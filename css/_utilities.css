@@ -1,0 +1,83 @@
+.rounded{
+    border-radius: 8px;
+}
+.pill{
+    border-radius: 22px;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+
+.w-100{
+    width: 100%;
+    display: block;
+}
+.w-130{
+    width: 130%;
+}
+.h-190{
+    height: 190.77px;
+}
+.h-250{
+    height: 250px;
+}
+.border-top-radius{
+    border-radius: 10px 10px 0 0;
+}
+.border-bottom-radius{
+    border-radius:0 0  10px 10px;
+}
+.tokyo-b{
+    background-color: #048F37 !important;
+}
+.rangoon-b{
+    background-color: #ffba08 !important;
+}
+.tran{
+    background-color: transparent;
+}
+.o-hid{
+    overflow: hidden;
+}
+.color-sec{
+    color: var(--secondary);
+}
+.color-first{
+    color: #b6a584;
+}
+.color-third{
+    color: #a9e896;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.mb-40{
+    margin-bottom: 40px;
+}
+.fz-05{
+    font-size: 0.7em;
+}
+.txt-gra{
+    background-image: linear-gradient(to right,white 1% ,rgb(255, 217, 0) 10%,rgb(85, 85, 85) 35%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.txt-gra-50{
+    background-image: linear-gradient(to right,white 30% ,rgb(255, 217, 0) 40%,rgb(11, 11, 11) 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.txt-gra-80{
+    background-image: linear-gradient(to right,white 5% ,rgb(255, 217, 0),rgb(11, 11, 11) 99%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    border:2px solid black;
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+}
+
+.obj{
+    /* padding: 50px; */
+    width: 100px;
+    height: 100px;
+    display: inline-block; 
+}
+
+.obj:nth-child(3){
+    background-color: aqua;
+}
+.obj:nth-child(4){
+    background-color: burlywood;
+    /* position: relative;
+    top: 50px;
+    left: 50px; */
+    /* position: absolute;
+    bottom: -50px;
+    left: 0;
+    right: 0;
+    margin: auto; */
+}
+.obj:nth-child(5){
+    background-color: chartreuse;
+}

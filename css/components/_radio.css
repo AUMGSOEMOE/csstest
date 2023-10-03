@@ -1,0 +1,19 @@
+.form-radio-group{
+    display: inline-block;
+    margin-left: 10px;
+}
+.form-radio-input{
+    width: 16px;
+    height: 16px;
+    appearance: none;
+    border: 1px solid gold;
+    padding: 2px;
+    border-radius: 8px;
+}
+.form-radio-input:checked{
+    background-color: white;
+    background-clip: content-box;
+}
+.form-radio-label{
+
+}

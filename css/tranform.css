@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.box{
+    border: 2px solid black;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 100px;
+}
+.box img{
+    width: 200px;
+    transform: rotate(30deg);
+    transform-origin: 100% 0%;
+    /* transform: translateX(100px); */
+    /* transform: translateY(100px); */
+    /* transform: translate(50px,50px); */
+    /* transform:rotateX(30deg) ; */
+}

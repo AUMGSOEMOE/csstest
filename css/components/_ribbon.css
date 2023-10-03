@@ -1,0 +1,53 @@
+.container{
+    height: 200px;
+}
+.ribbon{  
+    display: inline-block;
+    margin: 0 160px 50px 60px;
+    position: relative;
+    
+}
+.ribbon-txt{
+    background-color: red;
+    color: white;
+    width: 120px;
+    height: 40px;
+    line-height: 30px;
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+}
+.ribbon-txt::before{
+    content: "";
+    position: absolute;
+    border: 5px solid rgba(37, 6, 6, 0.475);
+    border-left-color: transparent ;
+    border-bottom-color: transparent ;
+    left: 0;
+    bottom: -10px;
+}
+.ribbon-txt::after{
+    content: "";
+    position: absolute;
+    border: 5px solid rgba(37, 6, 6, 0.475);
+    border-right-color: transparent ;
+    border-bottom-color: transparent ;
+    right: 0;
+    bottom: -10px;
+}
+.ribbon-left{
+    position: absolute;
+    border: 20px solid rgb(255, 0, 0)  ;
+    border-left-color: transparent ;
+    left: -30px;
+    top: 10px;
+    z-index: 1;
+}
+.ribbon-right{
+    position: absolute;
+    border: 20px solid rgb(255, 0, 0)  ;
+    border-right-color: transparent ;
+    left: 110px;
+    top: 10px;
+    z-index: 1;
+}

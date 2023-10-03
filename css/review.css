@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'mp';
+    src: url(../fonts/MyanmarPixel.ttf);
+}
+.mm-txt{
+    font-family:'mp',Fuggles ;
+}
+.box{
+    background-color: aqua;
+    max-width: 700px;
+}
+body{
+    counter-reset: forh3;
+}
+h3{
+    counter-increment: forh3;
+}
+h3::before{
+    content: counter(forh3)". ";
+}
+.tokyo{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+}

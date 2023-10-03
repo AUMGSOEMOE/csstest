@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body style="background-color: black;">
+    <main>
+        <section class="login">
+            <div class="layer">
+                <h3 class="login-title  txt-gra-80">
+                    <i class="fa-solid fa-user"></i>
+                    Student Register
+                </h3>
+                <form id="studentRegister" action="">
+                    <div class="mb-20">
+                        <label class="form-label txt-gra" for="yourName">Your Name</label>
+                        <input type="text" name="your_name" id="yourName" class="form-input">
+                    </div>
+                    <div class="mb-20">
+                        <label class="form-label txt-gra" for="yourEmail">Login Email</label>
+                        <input type="email" name="your_email" id="yourEmail" class="form-input">
+                    </div>
+                    <div class="mb-20">
+                        <label class="form-label txt-gra" for="password">Password</label>
+                        <input type="password" name="password" id="password" class="form-input">
+                    </div>
+                    <div class="mb-20">
+                        <label class="form-label txt-gra" for="">Gender</label>
+                        <div class="form-radio-group">
+                            <input class="form-radio-input" type="radio" id="male" value="male" name="gender">
+                            <label class="form-radio-label txt-gra-80" for="male">Male</label>
+                        </div>
+                        <div class="form-radio-group">
+                            <input class="form-radio-input" type="radio" id="female" value="female" name="gender">
+                            <label class="form-radio-label txt-gra-80" for="female">Female</label>
+                        </div>
+                        <div class="form-radio-group">
+                            <input class="form-radio-input" type="radio" id="custom" value="custom" name="gender">
+                            <label class="form-radio-label txt-gra-80" for="custom">Custom</label>
+                        </div>
+                    </div>
+                    <div class="mb-40">
+                        <label class="form-select-label txt-gra-80" for="userType">Select User Type</label>
+                        <select name="user_type" id="userType" class="form-select">
+                            <option value="Student">Student</option>
+                            <option value="Teacher">Teacher</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-20">
+                        <input type="checkbox" id="checkBox" class="form-check-input">
+                        <label class="form-check-label txt-gra-80" for="checkBox">all accept</label>
+                    </div>
+
+
+
+
+                    <button class="btn btn-tran w-100 pill  txt-gra-50">Register Now</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

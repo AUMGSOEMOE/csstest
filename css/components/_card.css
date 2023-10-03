@@ -1,0 +1,54 @@
+.card{
+    width: 300px;
+    display: inline-block;
+    margin-left: 70px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 15px;
+}
+.card-body{
+    padding: 20px;
+}
+.star{
+    font-size: 0.7em;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.card-title{
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    color: rgb(64, 64, 64);
+}
+.card-content{
+    color: rgb(113, 105, 105);
+}
+.card-footer{
+    background-color: #e63946;
+    padding-top: 5px ;
+    height: 50px;
+    display: flex;
+    box-sizing: border-box;
+}
+.heart{
+    width: 33.33% ;
+    border-right: 1px solid black;
+    color: rgb(255, 255, 255);
+}
+.view{
+    width: 33.33% ;
+    border-right: 1px solid black;
+    color: rgb(255, 255, 255);
+}
+.comment{
+    width: 33.33% ;
+    color: rgb(255, 255, 255);
+}
+.circle{
+    display: inline-block;
+}
+.rate{
+    display: inline-block;
+    margin-left: 100px;
+    color: rgb(64, 64, 64);
+}

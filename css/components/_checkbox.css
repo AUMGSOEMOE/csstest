@@ -1,0 +1,16 @@
+.form-check-label{
+}
+.form-check-input{
+    width: 16px;
+    height: 16px;
+    appearance: none;
+    border: 1px solid gold;
+    
+}
+.form-check-input:checked{
+    background-image: url(../../img/check-solid.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 10px;
+    background-color: black;
+}

@@ -1,0 +1,30 @@
+main{
+    padding: 20px;
+}
+
+.main-heading{
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+.login{
+    background-color: white;
+    width: 410px;
+    margin: 0px auto;
+    background-image: linear-gradient(to top,white 10%,rgb(239, 213, 66) 20%,gold);
+}
+.layer{
+    border: 1px solid gold;
+    padding: 40px; 
+    margin-bottom: 20px;
+    width: 400px;
+    margin: 0px auto;
+    background-color: black;
+}
+.login-title{
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+.the-last{
+    /* background-color: aqua; */
+    height: 44px;
+}

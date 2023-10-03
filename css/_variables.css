@@ -1,0 +1,6 @@
+/* css variable(data store,reuse,overwrite) */
+:root{
+    --primary:#1d3557;
+    --secondary:#7209b7;
+    --assent:#344e41;
+}

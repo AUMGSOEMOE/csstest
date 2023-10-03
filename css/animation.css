@@ -1,0 +1,75 @@
+@import url(
+"https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Noto+Serif+Myanmar:wght@400;600&family=Ruda:wght@400;700&display=swap"
+
+);
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+main{
+    padding: 40px;
+}
+.main-title{
+    margin-bottom: 40px;
+}
+.box-title{
+    margin-bottom: 20px;
+}
+.box-txt{
+    line-height: 1.5em;
+}
+.box{
+    background-color: aqua;
+    padding: 40px;
+    margin-bottom: 20px;
+}
+.ani-delay-500{
+    animation-delay: 500ms;
+}
+.ani-delay-1000{
+    animation-delay: 1000ms;
+}
+
+@keyframes slide-in-left{
+    from{
+        transform: translate(-120%);
+    }
+    to{
+        transform: translate(0);
+    }
+}
+.slide-in-left{
+    animation-name: slide-in-left;
+    animation-duration: 500ms;
+    /* animation-delay: 3s; */
+    animation-fill-mode: backwards;
+}
+.slide-out-right{
+    animation-name: slide-out-right;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes slide-out-right{
+    from{
+        transform: translate(0px);
+    }
+    to{
+        transform: translate(120%);
+    }
+}
+/* slide */
+.slide-in-bottom{
+
+} 
+@keyframes slide-in-bottom{
+    
+}
+
+
+/* fade */
+/* scale */
+/* rotate */

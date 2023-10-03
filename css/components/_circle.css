@@ -1,0 +1,48 @@
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 40px;
+    position: relative;
+}
+.circle::before{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    top: 15px;
+    left: 15px;
+}
+.circle1{ 
+    background-image: conic-gradient(red 0deg,red 270deg,rgb(0, 0, 0) 270deg,rgb(0, 0, 0) 360deg);
+}
+.circle1::before{
+    content: " 75% ";
+    font-weight: bold;
+} 
+.circle2{
+    background-image: conic-gradient(rgb(75, 151, 62) 0deg,rgb(75, 151, 62) 25deg,rgb(195, 250, 184) 25deg,rgb(195, 250, 184) 360deg);
+}
+.circle2::before{
+    content: " 10% ";
+    font-weight: bold;
+} 
+.circle3{
+    background-image: conic-gradient(rgb(0, 42, 255) 0deg,rgb(0, 42, 255) 355deg,rgb(0, 0, 0) 355deg,rgb(0, 0, 0) 360deg);
+}
+.circle3::before{
+    content: " 98% ";
+    font-size: 30px;
+    font-weight: bold;
+} 
+.circle4{
+    background-image: conic-gradient(rgb(3, 3, 89),rgb(5, 5, 206),rgb(4, 4, 128),rgb(1, 1, 78),rgb(2, 2, 74));
+}
+.circle4::before{
+    content: " 100% ";
+    font-size: 20px;
+    font-weight: bold;
+}

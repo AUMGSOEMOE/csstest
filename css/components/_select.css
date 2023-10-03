@@ -1,0 +1,16 @@
+.form-select{
+    display: block;
+    width: 100%;
+    border: 1px solid black;
+    padding: 0px 10px;
+    height: 44px;
+    line-height: 44px;
+    appearance: none;
+    background-image: url(../../img/down-solid.svg);
+    background-repeat: no-repeat;
+    background-size: 10px;
+    background-position: right 10px center;
+}
+.form-select:focus-visible{
+    outline: none;
+}
